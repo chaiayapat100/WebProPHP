@@ -1,4 +1,5 @@
 <html>
+
 <body>
     <?php
     $x = $_GET["numx"];
@@ -7,41 +8,41 @@
     $z = 0;
 
     function plus($x, $y)
-{
-    global $z;
-    $z =$x + $y;
-    echo "x + y = ",$z."<br>";
-}
-function sub($x, $y)
-{
-    global $z;
-    $z = $x - $y;
-    echo "x - y = ",$z."<br>" ;
-}
-function mul($x, $y)
-{
-    global $z;
-    $z = $x * $y;
-    echo "x * y = ",$z."<br>" ;
-}
-function div($x, $y)
-{
-    global $z;
-    $z = $x / $y;
-    echo "x / y = ",$z."<br>" ;
-}
-    switch ($oper){
-        case("+"):
-            plus($x,$y);
+    {
+        global $z;
+        $z = $x + $y;
+        echo "x + y = ", $z . "<br>";
+    }
+    function sub($x, $y)
+    {
+        global $z;
+        $z = $x - $y;
+        echo "x - y = ", $z . "<br>";
+    }
+    function mul($x, $y)
+    {
+        global $z;
+        $z = $x * $y;
+        echo "x * y = ", $z . "<br>";
+    }
+    function div($x, $y)
+    {
+        global $z;
+        $z = $x / $y;
+        echo "x / y = ", $z . "<br>";
+    }
+    switch ($oper) {
+        case ("+"):
+            plus($x, $y);
             break;
-        case("-"):
-            sub($x,$y);
+        case ("-"):
+            sub($x, $y);
             break;
-        case("*"):
-            mul($x,$y);
+        case ("*"):
+            mul($x, $y);
             break;
-        case("/"):
-            div($x,$y);
+        case ("/"):
+            div($x, $y);
             break;
         default:
     }
@@ -61,4 +62,5 @@ function div($x, $y)
     echo "result = $z";
     ?>
 </body>
+
 </html>
