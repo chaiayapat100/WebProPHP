@@ -4,8 +4,9 @@
 <body>
 
     <form action="welcome_get.php" method="get">
-        Name: <input type="text" name="name"><br>
-        E-mail: <input type="text" name="email"><br>
+        Num X: <input type="text" name="numx"><br>
+        Num Y: <input type="text" name="numy"><br>
+        Operator: <input type="text" name="operator"><br>
         <input type="submit">
     </form>
 
