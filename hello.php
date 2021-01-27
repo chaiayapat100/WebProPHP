@@ -6,8 +6,7 @@
     </head>
     <body>
         <?php
-           echo "<h1>Hello</h1><br>";
-           echo "<h2>Bangkok</h2>";
+           echo "<h1>Hello</h1>";
         ?>
     </body>
 </html>
