@@ -21,7 +21,7 @@
             <tr>
                 <td> Operator : </td>
                 <td align="center">
-                    <input type="radio" name="operator" value="+"> + <br>
+                    <input type="radio" name="operator" value="+"> + : 
                     <input type="radio" name="operator" value="-"> - <br>
                     <input type="radio" name="operator" value="*"> * <br>
                     <input type="radio" name="operator" value="/"> / <br>
