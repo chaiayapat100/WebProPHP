@@ -1,4 +1,4 @@
-<?
+<?php
 // declare function page_header with argument and defualt value
 function page_header($title, $bgcolor = "ffffff") {
 echo '<html lang="en"><head><meta charset="UTF-8">';
@@ -13,7 +13,7 @@ echo '</body></html>';
 // declare function summation
 function summation($start, $stop) {
 $total = 0;
-for($n = $start; $n <= $stop; $n++) {
+for($n = $start; $n <= $stop; $n++) { 
 $total += $n;
 }
 return( $total);
