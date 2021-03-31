@@ -16,7 +16,7 @@
      * ซื้อได้ ตั้งแต่ 10 - 500 บาทเท่านั้น<br><br>
      จำนวนเงินที่คุณต้องการซื้อ [10 - 500 บาท] <input type="number" min="10" name="num2" max="500"><br>
      <input type="submit" value=" ตรวจรางวัล "/>
-    </center> 
+    </center>
     </form>
 </body>
 </html>
