@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('server.php')
+include('server.php');
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +20,7 @@ include('server.php')
     </div>
 
     <form action="register_db.php" method="post">
-        <?php include('errors.php');
+        <?php include('error.php');
         if (isset($_SESSION['error'])) : ?>
             <div class="error">
                 <h3>
